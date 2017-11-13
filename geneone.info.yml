@@ -1,0 +1,12 @@
+name: Template
+description: Um teste de criação de temas para drupal.
+type: theme
+core: 8.x
+libraries:
+ - template/global-styling
+ - template/global-scripting
+# definir regioes
+regions:
+  header: 'Header'
+  content: 'Main content'
+  footer: 'Footer'
